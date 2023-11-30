@@ -8,12 +8,12 @@ import android.view.MenuItem
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.widget.Toolbar
-
-class MainActivity : AppCompatActivity() {
+class calls : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calls)
         intent
+
 
         val chatsIntent = findViewById<Button>(R.id.chats)
         val callsIntent = findViewById<Button>(R.id.calls)
